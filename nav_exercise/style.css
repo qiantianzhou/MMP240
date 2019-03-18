@@ -1,0 +1,26 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+/*navigation styles*/
+nav{
+	background-color:#54c7d8;
+	text-align:center;
+}
+nav ul{
+	list-style: none;
+}
+nav li{
+	display:inline;
+}
+nav a{
+	display:inline-block;
+	padding:20px;
+	text-decoration:none;
+	color:#e52d00;
+}
+nav a:hover{
+	background-color:#d3d617;
+	color:#e206ba;
+}
