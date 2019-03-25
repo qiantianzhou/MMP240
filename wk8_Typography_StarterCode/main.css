@@ -26,6 +26,24 @@ body {
   line-height: 1.45;
   color: #4bb5ad;
 }
+section{
+	max-width:760px;
+	margin:auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 p {margin-bottom: 1.25em;}
 
@@ -50,3 +68,13 @@ h4 {font-size: 1.777em;}
 h5 {font-size: 1.333em;}
 
 small, .text_small {font-size: 0.75em;}
+
+@media only screen and (min-width: 1000px){
+	section{
+		column-count: 2;
+	}
+}
+
+
+
+
