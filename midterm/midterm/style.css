@@ -1,0 +1,114 @@
+* {
+    margin:0;
+}
+html{
+    font-size:100%;
+}
+body{
+    font-family: 'Roboto', sans-serif; font-family: 'Niramit', sans-serif;
+    font-size:1em;
+    margin:50px 75px 50px 75px;
+	background-color: #F2C1B6;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#003840;
+	
+
+}
+.bannerbackground{
+	height:300px;
+	width:100%;
+	background-image:url("images/nintendologo222.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-color:#cccccc;
+	border: solid 5px #F23847;
+	margin-bottom:10px;
+}
+.bannerbackground2{
+	height:300px;
+	width:100%;
+	background-image:url("images/banner2.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-color:#cccccc;
+	border: solid 5px #F23847;
+	margin-bottom:10px;
+}
+
+
+.center-responsive{ 
+	display:block;
+	max-width:100%; 
+	max-height: 100%;
+	margin:0 auto;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.center-responsive1{ 
+	display:block;
+	max-width:50%; 
+	max-height: 50%;
+	margin:0 auto;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+nav{
+	background-color:#F23847;
+	text-align:center;
+	margin-bottom:10px;
+}
+nav ul{
+	list-style: none;
+}
+nav li{
+	display:inline;
+}
+nav a{
+	display:inline-block;
+	padding:20px;
+	text-decoration:none;
+	color:#400711;
+}
+nav a:hover{
+	background-color:#F28888;
+	color:#400711;
+}
+
+h3{
+    font-weight:400;
+    font-size:1.5em;
+	background-color:#DD3E49;
+    height:34px;
+    border-bottom:solid 8px #FF8893;
+    padding-left:16px;
+    padding-top:30px;
+    margin-bottom:24px;
+}
+#content{
+    display:flex;
+    flex-direction:column;
+}
+.content-item{
+    padding-left:16px;
+    padding-right:16px;
+    margin-bottom:32px;
+
+}
+#main img{
+    width:100%;
+}
+
+@media(min-width:768px){
+
+
+#content{
+    flex-direction:row;
+}
+    #main{
+        width:70%;
+    }
+    #about{
+        width:30%;
+    }
+}
