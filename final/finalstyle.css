@@ -27,3 +27,9 @@ nav a:hover{
 	background-color:#F28888;
 	color:#400711;
 }
+.image-caption{
+	font-size: 80%;
+	padding: .7em 1em;
+	background: #FFE6E3;
+	color: black;
+}
