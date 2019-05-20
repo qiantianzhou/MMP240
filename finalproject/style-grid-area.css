@@ -12,23 +12,23 @@
 }
 .masthead{
 	grid-area: masthead;
-	background-color: #FF7B8F;
+	background-color: #BF1765;
 }
 .page-title{
 	grid-area: title;
-	background-color: #F23847;
+	background-color: #F252BA;
 }
 .main-content{
 	grid-area: main;
-	background-color: #E74F60;
+	background-color: #F279C8;
 }
 .sidebar{
 	grid-area: sidebar;
-	background-color: #FF4F40;
+	background-color: #F252BA;
 }
 .footer-content{
 	grid-area:footer;
-	background-color: #FF7061;
+	background-color: #B847C2;
 }
 .site {
 	margin: 1em;
@@ -71,7 +71,7 @@
 
 
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 768px){
 	.site{
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-areas: 
